@@ -38,27 +38,11 @@ button {
   transition: 0.5s;
 }
 
-input {
-  font-size: 1.1rem;
-  line-height: 120%;
-  color: var(--light);
-  padding: 1.25rem 0;
-  border: none;
-  outline: none;
-  background: none;
-}
-
-input:placeholder {
-  color: var(--medium);
-}
-
-input {
-  padding: 1rem;
-  margin: 1.1rem 0;
-}
-
-input[type="text"]:focus {
-  border-color: var(--green);
+#container {
+  margin-top: 6.25rem;
+  width: 80%;
+  max-width: 37.5rem;
+  margin-inline: auto;
 }
 
 input[type="text"],
