@@ -5,11 +5,12 @@
   box-sizing: border-box;
 }
 
-:root {
-  --purple: #3ea1db;
-  --gradient-default: linear-gradient(270deg, #3ea1db 0%, #574ae8 100%);
-  --light-transparent: #ffffff33;
-  --medium: #717171;
+body {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  font-family: sans-serif;
+}
 
   --green: #04c35c;
   --white: #ffffff;
