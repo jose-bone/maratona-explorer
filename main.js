@@ -34,4 +34,8 @@ function fazerPergunta() {
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas);
 
   elementoResposta.innerHTML = pergunta + respostas[numeroAleatorio];
+
+  setTimeout(function () {
+    elementoResposta.style.opacity = 0;
+  }, 3000);
 }

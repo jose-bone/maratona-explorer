@@ -68,6 +68,8 @@ button:hover {
 
 #resposta {
   margin-top: 1.875rem;
+
+  transition: opacity 1s;
 }
 
 #resposta div {
