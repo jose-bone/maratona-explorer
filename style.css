@@ -65,3 +65,14 @@ button:hover {
   filter: brightness(1.2);
   cursor: pointer;
 }
+
+#resposta {
+  margin-top: 1.875rem;
+}
+
+#resposta div {
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 0.625rem;
+}
